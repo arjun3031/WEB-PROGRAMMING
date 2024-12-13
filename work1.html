@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARJ Technology - Registration</title>
+    <style>
+        body {
+            background-image: url(img1.jpg);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            text-align: center;
+        }
+        h1 {
+            color: rgb(255, 255, 255);
+            margin: 10px 0;
+        }
+        table {
+            background-color: #b5b5b5;
+            width: 30%;
+            height: auto;
+            border-collapse: collapse;
+            margin: 10px auto;
+            color: #000000;
+        }
+        td {
+            padding: 5px;
+        }
+        input[type="text"], input[type="number"], input[type="date"], input[type="file"], input[type="password"] {
+            color: #000000;
+            width: 100%;
+            padding: 3px;
+            margin: 3px 0;
+            box-sizing: border-box;
+        }
+        input[type="radio"], input[type="checkbox"] {
+            margin-left: 5px;
+        }
+        input[type="submit"] {
+            background-color: rgb(21, 140, 51);
+            color: rgb(255, 255, 255);
+            padding: 5px;
+            border: none;
+            cursor: pointer;
+        }
+        .header img {
+            margin-top: 10px;
+        }
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .body {
+            background-image: url(img1.jpg);
+        }
+        button:hover.stars {
+            display: block;
+            filter: drop-shadow(0 0 10px #fffdef);
+        }
+    </style>
+</head>
+<body class="body">
+    <div class="navbar">
+        <a href="contact.html">Contact Us</a>
+        <a href="join.html">Join</a>
+        <a href="login.html">Login</a>
+    </div>
+    <br>
+    <marquee style="background-color: rgb(8, 8, 8); color: rgb(255, 255, 255);" behavior="" direction="left">Welcome to ARJ Technology website! | Innovative Solutions | Quality Services | Customer Satisfaction | Contact Us Today!</marquee>
+    <br>
+    <h1 style="color: rgb(255, 255, 255); size: 20ch; background-color: black;">WELCOME TO ARJ TECHNOLOGY</h1>
+    <center><img src="arj1.jpg" width="3%" height="2%"></center>
+    <h2 style="color: rgb(255, 255, 255); background-color: rgb(0, 0, 0);">Innovative Solutions for a Better Future</h2>
+    <hr>
+    <h4 style="background-color: rgb(225, 218, 226); color: black;">About Us</h4>
+    <br>
+    <p style="color: rgb(255, 255, 255);">
+        At <strong>ARJ Technology</strong>, <i>we are committed to driving innovation and excellence in everything we do. Our team of experts is dedicated to providing top-notch services and solutions tailored to meet the unique needs of our clients. With a focus on quality and customer satisfaction, we strive to exceed expectations and deliver outstanding results.</i>
+    </p>
+    <hr>
+    <h4 style="background-color: rgb(225, 218, 226); color: black;">Login</h4>
+    <button class="button" style="background-color: rgb(0, 0, 0);"><a style="color: rgb(255, 255, 255);" href="login.html">Click here</a></button>
+    <hr>
+    <h4 style="background-color: rgb(216, 203, 219); color: black;">Contact Us</h4>
+    <button class="button" style="background-color: rgb(0, 0, 0);"><a href="contact.html" style="color: aliceblue;">Click Here</a></button>
+    <h4 style="background-color: rgb(225, 218, 226); color: black;">Join Our Team</h4>
+    <button class="button" style="background-color: rgb(0, 0, 0);"><a href="join.html" style="color: azure;">Click Here</a></button>
+    <hr>
+    <center><p style="color: aliceblue;">
+        Thank you for visiting ARJ Technology. We look forward to partnering with you to achieve success.
+    </p></center>
+    <hr>
+    <form action="">
+        <table border="1">
+            <tr>
+                <th colspan="2">Registration Form</th>
+            </tr>
+            <tr>
+                <td><label for="f">Name: </label></td>
+                <td><input type="text" name="fname" id="f" minlength="3" maxlength="7" pattern=".*a" required></td>
+            </tr>
+            <tr>
+                <td><label for="m">Age: </label></td>
+                <td><input type="number" name="mob" id="m" required></td>
+            </tr>
+            <tr>
+                <td><label for="g">Gender: </label></td>
+                <td>
+                    Male <input type="radio" name="gen" id="g" value="male" checked>
+                    Female <input type="radio" name="gen" id="g" value="female">
+                    Others <input type="radio" name="gen" id="g" value="others">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="d">Date: </label></td>
+                <td><input type="date" name="dat" id="d"></td>
+            </tr>
+            <tr>
+                <td><label for="i">Image: </label></td>
+                <td><input type="file" name="ima" id="i"></td>
+            </tr>
+            <tr>
+                <td><label for="n">Mobile: </label></td>
+                <td><input type="number" name="num" id="n" required></td>
+            </tr>
+            <tr>
+                <td><label for="">Address: </label></td>
+                <td><textarea></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="r">Hobbies: </label></td>
+                <td>
+                    Reading <input type="checkbox" name="read" id="r" value="reading">
+                    Gaming <input type="checkbox" name="game" id="ga" value="gaming">
+                    Dancing <input type="checkbox" name="dance" id="da" value="dancing">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="u">Username: </label></td>
+                <td><input type="text" name="uname" id="u" required></td>
+            </tr>
+            <tr>
+                <td><label for="p">Password: </label></td>
+                <td><input type="password" name="pass" id="p" required></td>
+            </tr>
+            <tr>
+                <td colspan="2"><center><input type="submit" value="Submit"></center></td>
+            </tr>
+        </table>
+    </form>
+    <hr>
+    <center><a style="color: aliceblue;" class="link" href="login.html">Back to Login</a></center>
+</body>
+</html>
